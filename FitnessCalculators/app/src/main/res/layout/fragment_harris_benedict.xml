@@ -1,0 +1,210 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.calc.maqueda.fitnesscalculators.fragments.HarrisBenedictFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- http://es.calcuworld.com/calculadora-nutricional/calculadora-de-calorias-harris-benedict/ -->
+
+            <TextView
+                android:id="@+id/sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/HarrisBenedictFragment.label.sex"
+                android:textIsSelectable="true"
+                android:textSize="25dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup_sexo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/sex"
+                android:layout_alignStart="@+id/sex"
+                android:layout_below="@+id/sex"
+                android:layout_marginTop="17dp">
+
+                <RadioButton
+                    android:id="@+id/man"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/HarrisBenedictFragment.radiobutton.man" />
+
+                <RadioButton
+                    android:id="@+id/woman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/HarrisBenedictFragment.radiobutton.woman" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/peso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioGroup_sexo"
+                android:layout_alignStart="@+id/radioGroup_sexo"
+                android:layout_below="@+id/radioGroup_sexo"
+                android:layout_marginTop="17dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/HarrisBenedictFragment.label.peso"
+                android:textIsSelectable="true"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/peso_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/peso"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/peso"
+                android:ems="3"
+                android:inputType="number" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup_peso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/sex"
+                android:layout_alignStart="@+id/sex"
+                android:layout_below="@+id/peso"
+                android:layout_marginTop="17dp">
+
+                <RadioButton
+                    android:id="@+id/kilo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/HarrisBenedictFragment.radiobutton.kilo" />
+
+                <RadioButton
+                    android:id="@+id/libra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/HarrisBenedictFragment.radiobutton.libra" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/estatura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioGroup_peso"
+                android:layout_alignStart="@+id/radioGroup_peso"
+                android:layout_below="@+id/radioGroup_peso"
+                android:layout_marginTop="17dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/HarrisBenedictFragment.label.estatura"
+                android:textIsSelectable="true"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/estatura_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/estatura"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/estatura"
+                android:ems="3"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/edad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioGroup_peso"
+                android:layout_alignStart="@+id/radioGroup_peso"
+                android:layout_below="@+id/estatura"
+                android:layout_marginTop="17dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/HarrisBenedictFragment.label.edad"
+                android:textIsSelectable="true"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/edad_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/edad"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/edad"
+                android:ems="3"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/nivel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioGroup_peso"
+                android:layout_alignStart="@+id/radioGroup_peso"
+                android:layout_below="@+id/edad"
+                android:layout_marginTop="17dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/HarrisBenedictFragment.label.nivel"
+                android:textIsSelectable="true"
+                android:textSize="25dp" />
+
+            <Spinner
+                android:id="@+id/nivel_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioGroup_peso"
+                android:layout_alignStart="@+id/radioGroup_peso"
+                android:layout_below="@+id/nivel"
+                android:entries="@array/nivel_array"
+                android:layout_marginTop="17dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="@string/HarrisBenedictFragment.label.cm"
+                android:id="@+id/cm"
+                android:layout_toRightOf="@+id/estatura_input"
+                android:layout_alignTop="@+id/estatura"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="@string/HarrisBenedictFragment.label.años"
+                android:id="@+id/años"
+                android:layout_toRightOf="@+id/edad_input"
+                android:layout_alignTop="@+id/edad"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/calcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/HarrisBenedictFragment.button.calcular"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

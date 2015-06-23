@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FitnessCalculators</string>
+
+    <string name="title_section1">Calorías Harris-Benedict</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="HarrisBenedictFragment.label.sex">Sexo</string>
+    <string name="HarrisBenedictFragment.radiobutton.man">Hombre</string>
+    <string name="HarrisBenedictFragment.radiobutton.woman">Mujer</string>
+    <string name="HarrisBenedictFragment.label.peso">Peso:</string>
+    <string name="HarrisBenedictFragment.label.estatura">Estatura:</string>
+    <string name="HarrisBenedictFragment.label.edad">Edad:</string>
+    <string name="HarrisBenedictFragment.label.nivel">Nivel de actividad:</string>
+    <string name="HarrisBenedictFragment.radiobutton.kilo">Kilos</string>
+    <string name="HarrisBenedictFragment.radiobutton.libra">Libras</string>
+    <string name="HarrisBenedictFragment.button.calcular">Calcular</string>
+    <string name="HarrisBenedictFragment.label.cm">cm</string>
+    <string name="HarrisBenedictFragment.label.años">años</string>
+
+    <string-array name="nivel_array">
+        <item>Sedentario</item>
+        <item>Actividad ligera</item>
+        <item>Actividad moderada</item>
+        <item>Actividad intensa</item>
+        <item>Actividad muy intensa</item>
+    </string-array>
+</resources>
