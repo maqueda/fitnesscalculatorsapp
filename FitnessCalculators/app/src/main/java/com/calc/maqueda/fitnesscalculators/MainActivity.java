@@ -52,11 +52,7 @@ public class MainActivity extends Activity
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
         FragmentManager fragmentManager = getFragmentManager();
-        if (position == 0) {
-            fragmentManager.beginTransaction().replace(R.id.container, HarrisBenedictFragment.newInstance(position + 1)).commit();
-        } else if (position == 1) {
-            fragmentManager.beginTransaction().replace(R.id.container, CaloriasDiariasFragment.newInstance(position + 1)).commit();
-        }
+
         switch (position){
             case 0: fragmentManager.beginTransaction().replace(R.id.container, HarrisBenedictFragment.newInstance(position + 1)).commit();
                 break;
