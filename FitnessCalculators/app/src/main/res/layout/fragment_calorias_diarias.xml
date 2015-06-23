@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.calc.maqueda.fitnesscalculators.fragments.CaloriasDiariasFragment"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/CaloriasDiariasFragment.label.peso"
+            android:id="@+id/peso_label"
+            android:textSize="25sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="41dp"
+            android:layout_marginStart="41dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="5"
+            android:id="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="41dp"
+            android:layout_marginEnd="41dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/CaloriasDiariasFragment.label.nivel"
+        android:textSize="25sp"
+        android:id="@+id/nivel_label" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="25dp">
+
+        <RadioButton
+            android:id="@+id/inexistente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:textSize="20sp"
+            android:text="@string/CaloriasDiariasFragment.radiobutton.inexistente" />
+
+        <RadioButton
+            android:id="@+id/ligera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:textSize="20sp"
+            android:text="@string/CaloriasDiariasFragment.radiobutton.ligera" />
+
+        <RadioButton
+            android:id="@+id/moderada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:textSize="20sp"
+            android:text="@string/CaloriasDiariasFragment.radiobutton.moderada" />
+
+        <RadioButton
+            android:id="@+id/intensa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:textSize="20sp"
+            android:text="@string/CaloriasDiariasFragment.radiobutton.intensa" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/CaloriasDiariasFragment.button.calcular"
+        android:textSize="20sp"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

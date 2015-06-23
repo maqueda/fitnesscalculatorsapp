@@ -2,7 +2,7 @@
     <string name="app_name">FitnessCalculators</string>
 
     <string name="title_section1">Calorías Harris-Benedict</string>
-    <string name="title_section2">Section 2</string>
+    <string name="title_section2">Calorías diarias</string>
     <string name="title_section3">Section 3</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -25,11 +25,23 @@
     <string name="HarrisBenedictFragment.label.cm">cm</string>
     <string name="HarrisBenedictFragment.label.años">años</string>
 
-    <string-array name="nivel_array">
+    <string name="CaloriasDiariasFragment.label.peso">Peso (kg)</string>
+    <string name="CaloriasDiariasFragment.label.nivel">Nivel de actividad:</string>
+    <string name="CaloriasDiariasFragment.button.calcular">Calcular</string>
+    <string name="CaloriasDiariasFragment.radiobutton.inexistente">Inexistente</string>
+    <string name="CaloriasDiariasFragment.radiobutton.ligera">Ligera</string>
+    <string name="CaloriasDiariasFragment.radiobutton.moderada">Moderada</string>
+    <string name="CaloriasDiariasFragment.radiobutton.intensa">Intensa</string>
+
+
+    <string-array name="niveles">
         <item>Sedentario</item>
         <item>Actividad ligera</item>
         <item>Actividad moderada</item>
         <item>Actividad intensa</item>
         <item>Actividad muy intensa</item>
     </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

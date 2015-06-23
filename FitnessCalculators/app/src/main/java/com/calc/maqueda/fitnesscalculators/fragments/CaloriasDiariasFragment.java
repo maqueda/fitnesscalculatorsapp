@@ -13,32 +13,33 @@ import com.calc.maqueda.fitnesscalculators.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link HarrisBenedictFragment#newInstance} factory method to
+ * Use the {@link CaloriasDiariasFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class HarrisBenedictFragment extends Fragment {
+public class CaloriasDiariasFragment extends Fragment {
 
     private static final String ARG_SECTION_NUMBER = "section_number";
 
 
-    public static HarrisBenedictFragment newInstance(int sectionNumber) {
-        HarrisBenedictFragment fragment = new HarrisBenedictFragment();
+    public static CaloriasDiariasFragment newInstance(int sectionNumber) {
+        CaloriasDiariasFragment fragment = new CaloriasDiariasFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_SECTION_NUMBER, sectionNumber);
         fragment.setArguments(args);
         return fragment;
     }
 
-    public HarrisBenedictFragment() {
+    public CaloriasDiariasFragment() {
         // Required empty public constructor
     }
+
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_harris_benedict, container, false);
+        return inflater.inflate(R.layout.fragment_calorias_diarias, container, false);
     }
 
     @Override
@@ -48,4 +49,5 @@ public class HarrisBenedictFragment extends Fragment {
         ((MainActivity) activity).onSectionAttached(
                 getArguments().getInt(ARG_SECTION_NUMBER));
     }
+
 }
