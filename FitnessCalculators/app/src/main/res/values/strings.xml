@@ -4,6 +4,7 @@
     <string name="title_section1">Calorías Harris-Benedict</string>
     <string name="title_section2">Calorías diarias</string>
     <string name="title_section3">Peso ideal</string>
+    <string name="title_section4">Contador de calorías por alimento</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -33,6 +34,8 @@
     <string name="CaloriasDiariasFragment.radiobutton.moderada">Moderada</string>
     <string name="CaloriasDiariasFragment.radiobutton.intensa">Intensa</string>
 
+    <string name="ContadorCaloriasAlimentosFragment.label.info">¿Quieres saber cuántas calorías tiene una cerveza? ¿Y una pizza? Descúbrelo con nuestro Contador de Calorías por Alimento. ¡Es muy sencillo!</string>
+
 
     <string-array name="niveles">
         <item>Sedentario</item>
@@ -40,6 +43,1010 @@
         <item>Actividad moderada</item>
         <item>Actividad intensa</item>
         <item>Actividad muy intensa</item>
+    </string-array>
+
+    <string-array name="nombres">
+        <item> - Seleccione un aliment - </item>
+        <item>Aceite (1 cucharada)</item>
+        <item>Aceituna (2 unidades)</item>
+        <item>Acelgas cocidas (1/2 Taza)</item>
+        <item>Acelgas jugo (1/2 Taza)</item>
+        <item>Achicoria (12 Hojas)</item>
+        <item>Agua Mineral (1 Vaso ch)</item>
+        <item>Aguardiente (1 Vaso)</item>
+        <item>Aguardiente de fruta (1 Vaso)</item>
+        <item>Agua Tónica (1 Vaso ch)</item>
+        <item>Ajiaco (1 Plato)</item>
+        <item>Ají Verde (1 Mediano)</item>
+        <item>Albacora a la Plancha (1 Porción)</item>
+        <item>Albacora al Vapor (1 Porción)</item>
+        <item>Albóndiga (1 Unidad)</item>
+        <item>Alcachofa (1 Chica)</item>
+        <item>Alcachofa mayo (1 Unidad)</item>
+        <item>Alcachofa Vinagreta (1 Unidad)</item>
+        <item>Almejas (10 Unidades)</item>
+        <item>Almejas al Matico (1 Porción)</item>
+        <item>Almejas al natural (10 Unidades)</item>
+        <item>Almejas en conserva (1 Tarro)</item>
+        <item>Almendras (1 Unidad)</item>
+        <item>Almendras (1 Taza)</item>
+        <item>Anchoas en conservas (1 Lata)</item>
+        <item>Anís (1 Copita)</item>
+        <item>Apio (1 Taza)</item>
+        <item>Arroz a la Valenciana (1 Plato)</item>
+        <item>Arroz Cocido (1 Taza)</item>
+        <item>Arroz con Leche (1 Compota)</item>
+        <item>Arroz Crudo (1 Cucharada)</item>
+        <item>Arroz Graneado (1 Taza)</item>
+        <item>Arvejas (1/2 Taza coc)</item>
+        <item>Arvejas (1 Tarro)</item>
+        <item>Atún (1 Tarro)</item>
+        <item>Atún con Salsa Verde (1 Porción)</item>
+        <item>Atún en aceite (1 Porción)</item>
+        <item>Avellanas (1 Unidad)</item>
+        <item>Aves de caza (General) (1 Porción)</item>
+        <item>Azúcar (1 Cuchdita)</item>
+        <item>Bacalao a la Parrilla (1 Porción)</item>
+        <item>Batidos y Flanes (yogurt) (1 Unidad)</item>
+        <item>Bavarois (1 Compota)</item>
+        <item>Berenjenas (1 Medida)</item>
+        <item>Berlín (1 Unidad)</item>
+        <item>Berro (1 Taza cruda)</item>
+        <item>Betarraga (1 Regular)</item>
+        <item>Betarraga Jugo (1 Taza)</item>
+        <item>Bilz (1 Vaso ch)</item>
+        <item>Bizcochuelo (1 Porción)</item>
+        <item>Bistec a la Plancha (1 Unidad)</item>
+        <item>Bistec Alemán (1 Porción)</item>
+        <item>Bistec a lo Pobre (1 Plato)</item>
+        <item>Bistec en Aceite (1 Unidad)</item>
+        <item>Bombones (1 Unidad)</item>
+        <item>Brandy (1 Copita)</item>
+        <item>Brazo de Reina (1 Porción)</item>
+        <item>Brioches (2 Unidades)</item>
+        <item>Bruselas (8 Unidades)</item>
+        <item>Budín de Verduras (1 Porción)</item>
+        <item>Caldillo de Pescado (1 Plato)</item>
+        <item>Caldo de ave (1 Cubo)</item>
+        <item>Caldo de carne (1 Cubo)</item>
+        <item>Caldo puro (1 Plato)</item>
+        <item>Calugas (10 Unidades)</item>
+        <item>Callampas Frescas (1/3 Taza)</item>
+        <item>Camarones (cocidos) (20 Colitas)</item>
+        <item>Camote (1/2 Taza)</item>
+        <item>Canapés 1/m (1 Unidad)</item>
+        <item>Caqui (1 Chico)</item>
+        <item>Caramelos (1 Unidad)</item>
+        <item>Carbonada con carne (1 Plato)</item>
+        <item>Carbonada de verdura (1 Plato)</item>
+        <item>Carlota rusa (1 Porción)</item>
+        <item>Carne al jugo (1 Presa)</item>
+        <item>Carne asada (1 Porción)</item>
+        <item>Carne Cazuela (1 Porción)</item>
+        <item>Carne molida (1 Porción)</item>
+        <item>Castañas (1 Unidad)</item>
+        <item>Castañas Cocidas (1 Porción)</item>
+        <item>Caviar (1 Porción)</item>
+        <item>Caviar (1 Cuchda)</item>
+        <item>Cazuela Albóndiga (1 Plato)</item>
+        <item>Cazuela Ave (1 Plato)</item>
+        <item>Cazuela Cerdo (1 Plato)</item>
+        <item>Cazuela Cordero (1 Plato)</item>
+        <item>Cazuela Vacuno (1 Plato)</item>
+        <item>Cebolla (1/2 Taza)</item>
+        <item>Cebolla Ensalada (1 Porción)</item>
+        <item>Cebollines (1 Unidad)</item>
+        <item>Centolla Cocida (1/4 Taza)</item>
+        <item>Cerezas (jugo) (1/2 Taza)</item>
+        <item>Cerezas o Guindas (1 Chica)</item>
+        <item>Cerezas o Guindas (1 Taza)</item>
+        <item>Cerveza (1 Vaso)</item>
+        <item>Ciruelas (jugo) (1/2 Taza)</item>
+        <item>Ciruelas (deshidratadas) (1 Unidad)</item>
+        <item>Ciruelas Frescas (1 Unidad Reg)</item>
+        <item>Clara de Huevo (1 Unidad)</item>
+        <item>Coca Cola (1 Vaso ch)</item>
+        <item>Coco (1 Unidad)</item>
+        <item>Cocoa (1 Cuchdita)</item>
+        <item>Coco Rallado (1/2 Taza)</item>
+        <item>Cóctel Cuba Libre (1 Vaso)</item>
+        <item>Cochayuyo (1 Pqte Gnde)</item>
+        <item>Coñac (1 Copita)</item>
+        <item>Coñac Francés (1 Copita)</item>
+        <item>Coliflor (1/2 Taza coc)</item>
+        <item>Compota Ciruela con Mote (1 Porción)</item>
+        <item>Compota de Fruta (1 Porción)</item>
+        <item>Compota de Huesillo c/m (1 Porción)</item>
+        <item>Conejo Asado (1 Porción)</item>
+        <item>Congrio al Vapor (1 Porción)</item>
+        <item>Congrio Frito (1 Porción)</item>
+        <item>Corvina al Vapor (1 Porción)</item>
+        <item>Costillas Asadas (1 Porción)</item>
+        <item>Crema batida (1 Cuchda)</item>
+        <item>Crema de Cacao (1 Copita)</item>
+        <item>Crema de Menta (1 Copita)</item>
+        <item>Crema deshidratada (1 Plato)</item>
+        <item>Crema Nestlé (1 Cuchda)</item>
+        <item>Criadillas (1 Porción)</item>
+        <item>Cuaquer con leche (1 Compota)</item>
+        <item>Champaña (1 Copa)</item>
+        <item>Champaña (2 Copas)</item>
+        <item>Champiñones (1/2 Taza)</item>
+        <item>Champiñones al natural (1 Tarro Chico)</item>
+        <item>Charqui (1 Porción)</item>
+        <item>Charquicán (1 Plato)</item>
+        <item>Chicle (1 Unidad)</item>
+        <item>Chirimoya (1 Taza)</item>
+        <item>Choclo entero (1 Unidad Me)</item>
+        <item>Choclo picado (1/2 Taza)</item>
+        <item>Chocolate (1 Barra)</item>
+        <item>Chocolate dulce (1 Porción)</item>
+        <item>Chocolate leche (1 Porción)</item>
+        <item>Chocolate salsa (1 Barra)</item>
+        <item>Cholgas (9 Unidades)</item>
+        <item>Cholgas en conservas (9 Unidades)</item>
+        <item>Choricillos (1 Unidad)</item>
+        <item>Choritos (18 Unidades)</item>
+        <item>Choritos en conservas (18 Unidades)</item>
+        <item>Chuletas de cerdo (1 Unid c/hue)</item>
+        <item>Chuletas de cordero (1 Unidad)</item>
+        <item>Chuletas de ternera (1 Unid c/hue)</item>
+        <item>Churros (2 Unidades)</item>
+        <item>Damasco (2 Unid Reg)</item>
+        <item>Damasco (1/2 Taza)</item>
+        <item>Dulces Chileno (1 Unidad)</item>
+        <item>Dulces de membrillo (1 Porción)</item>
+        <item>Durazno (1 Unid Chica)</item>
+        <item>Durazno en conserva (1 Porción)</item>
+        <item>Durazno al jugo (1 Mitad Gnde)</item>
+        <item>Durazno al jugo (1 Mitad c/jug)</item>
+        <item>Durazno al jugo (1 Tarro)</item>
+        <item>Empanada frita Pino (1 Unid Med)</item>
+        <item>Empanada frita Queso (1 Unid Med)</item>
+        <item>Empanada Horno (1 Unid Med)</item>
+        <item>Ensaladas porotos c/cebolla (1 Porción)</item>
+        <item>Ensalada rusa (1 Porción)</item>
+        <item>Erizos (5 Lenguas)</item>
+        <item>Escalopa de vacuno (1 Unidad)</item>
+        <item>Escarola (4 Hojas Gnde)</item>
+        <item>Espárragos (4 Puntas Reg)</item>
+        <item>Espárragos trozos (1 Tarro Chico)</item>
+        <item>Espárragos puntas (1 Tarro Chico)</item>
+        <item>Espárragos limoneta (1 Plato)</item>
+        <item>Espinacas cocidas (1/2 Taza)</item>
+        <item>Espinacas crudas (1 Mata Chica)</item>
+        <item>Estofado de cordero (1 Plato)</item>
+        <item>Estofado de ave (1 Plato)</item>
+        <item>Fanta (1 Vaso ch)</item>
+        <item>Fiambres en general (1 Tajada)</item>
+        <item>Fideos crudos (1 Cuchda)</item>
+        <item>Filete asado (1 Medallon)</item>
+        <item>Filete Miñón (1 Porción)</item>
+        <item>Flan de leche (1 Compota)</item>
+        <item>Flan de verdura (1 Porción)</item>
+        <item>Frambuesa (1 Taza)</item>
+        <item>Fricasé (1 Plato)</item>
+        <item>Fritos de verdura (1 Porción)</item>
+        <item>Fruta confitada (1 Trozo Chico)</item>
+        <item>Frutilla (12 Unidades)</item>
+        <item>Frutillas con azúcar (1 Porción)</item>
+        <item>Frutillas con crema (1 Porción)</item>
+        <item>Galletas cream cracker (1 Unidad)</item>
+        <item>Galletas de agua (1 Unidad Med)</item>
+        <item>Galletas de limón (1 Unidad)</item>
+        <item>Galletas de monito (1 Unidad)</item>
+        <item>Galletas de oblea (1 Unidad)</item>
+        <item>Galletas de soda (1 Unidad)</item>
+        <item>Galletas de triton (1 Unidad)</item>
+        <item>Galletas de vino (1 Unidad)</item>
+        <item>Garbanzos cocidos (1 Taza)</item>
+        <item>Garbanzos con tocino (1 Plato)</item>
+        <item>Ginebra o Gin (1 Copita)</item>
+        <item>Ginger Ale (1 Vaso ch)</item>
+        <item>Gomitas dulces (5 Unidades)</item>
+        <item>Goulach (1 Porción)</item>
+        <item>Granada (1 Unidad Reg)</item>
+        <item>Guayaba (1 Unidad)</item>
+        <item>Guindas (1 Porción)</item>
+        <item>Guindas al jugo (1 Tarro)</item>
+        <item>Guatitas (1 Porción)</item>
+        <item>Hígado bistec (1 Porción)</item>
+        <item>Habas (1 Taza coc)</item>
+        <item>Habas (1 Unidad)</item>
+        <item>Hamburguesas (1 Unidad)</item>
+        <item>Harina de leguminosas (1 Porc Sopa)</item>
+        <item>Harina de leguminosas (1 Porc Puré)</item>
+        <item>Harina Tostada c/leche (1 Compota)</item>
+        <item>Helado de agua (1 Unidad)</item>
+        <item>Helado de leche (1 Unidad)</item>
+        <item>Hígado de ave (1 Porción)</item>
+        <item>Hígado de Cerdo (1 Porción)</item>
+        <item>Hígado de Cordero (1 Porción)</item>
+        <item>Hígado de Vacuno (1 Porción)</item>
+        <item>Higos (1 Unidad)</item>
+        <item>Higos frescos y brevas (2 Unid Gnde)</item>
+        <item>Huevo a la copa o duro (1 Unidad)</item>
+        <item>Huevo con fiambre (1 Unidad)</item>
+        <item>Huevo frito o revuelto (1 Unidad)</item>
+        <item>Huevo con queso (1 Unidad)</item>
+        <item>Huevo con tocino (1 Unidad)</item>
+        <item>Huevo de Codorniz (1 Unidad)</item>
+        <item>Huesillos (1 Unidad)</item>
+        <item>Humitas (1 Chica)</item>
+        <item>Jaivas (1/4 Taza)</item>
+        <item>Jalea con fruta (1 Porción)</item>
+        <item>Jalea con leche (1 Porción)</item>
+        <item>Jalea sola (1 Porción)</item>
+        <item>Jamón (1 Tajada Reg)</item>
+        <item>Jamón con palta y lechuga (1 Porción)</item>
+        <item>Jamón de pollo (4 Tajadas)</item>
+        <item>Jamón con papas mayo (1 Plato)</item>
+        <item>Jerez (1 Copa)</item>
+        <item>Jugo fruta (1/2 Taza)</item>
+        <item>Jurel al vapor (1 Porción)</item>
+        <item>Kéfir (1/2 Taza)</item>
+        <item>Kuchen (1 Porción)</item>
+        <item>Langostino langosta (20 Colitas)</item>
+        <item>Lasaña (1 Plato)</item>
+        <item>Leche asada (1 Compota)</item>
+        <item>Leche condensada (1 Cuchda)</item>
+        <item>Leche con Milo (1 Taza)</item>
+        <item>Leche con Plátano (1 Taza)</item>
+        <item>Leche con sabor (1 Taza)</item>
+        <item>Leche de Cabra (1 Taza)</item>
+        <item>Leche de Oveja (1 Taza)</item>
+        <item>Leche descremada líquida (1 Taza)</item>
+        <item>Leche descremada polvo (1 Cuchda)</item>
+        <item>Leche entera líquida (1 Cuchda)</item>
+        <item>Leche entera líquida (1 Taza)</item>
+        <item>Leche entera polvo (1 Cuchda)</item>
+        <item>Leche evaporada (1 Cuchda)</item>
+        <item>Leche nevada (1 Compota)</item>
+        <item>Lima (1 Cuchda)</item>
+        <item>Limón (1/2 Taza)</item>
+        <item>Limón (1 Cuchda)</item>
+        <item>Limonada (1/2 Taza)</item>
+        <item>Lechuga (4 Hojas)</item>
+        <item>Lechuga picada (1/2 Taza)</item>
+        <item>Lengua de cerdo (1 Porción)</item>
+        <item>Lengua de cordero (1 Porción)</item>
+        <item>Lengua de vacuno (1 Porción)</item>
+        <item>Lentejas cocidas (1 Taza)</item>
+        <item>Lentejas con arroz (1 Plato)</item>
+        <item>Locos cocidos (1 Unidad)</item>
+        <item>Locos mayo (1 Porción)</item>
+        <item>Lomo asado (1 Porción)</item>
+        <item>Longaniza (1 Unidad)</item>
+        <item>Lúcuma (1 Taza coc)</item>
+        <item>Luche (1/2 Taza)</item>
+        <item>Macedonia (1 Porción)</item>
+        <item>Machas (12 Unidades)</item>
+        <item>Machas en conservas (12 Unidades)</item>
+        <item>Maicena cruda (1 Cuchda)</item>
+        <item>Malaya de cerdo (1 Tajada)</item>
+        <item>Mandarina (1/2 Taza)</item>
+        <item>Mandarina (1 Unidad)</item>
+        <item>Mangos crudos ()</item>
+        <item>Manhatan dulce (1 Vaso)</item>
+        <item>Maní (1 Unidad)</item>
+        <item>Manjar (1 Cuchda)</item>
+        <item>Manteca (1 Cuchdita)</item>
+        <item>Mantequilla (1 Cuchdita)</item>
+        <item>Manzana (1/2 Taza)</item>
+        <item>Manzana asada (1 Porción)</item>
+        <item>Manzana (1 Regular)</item>
+        <item>Margarina (1 Cuchdita)</item>
+        <item>Mariscos salsa verde (1 Porción)</item>
+        <item>Mayonesa (1 Cuchda)</item>
+        <item>Mazapán (1 Unidad)</item>
+        <item>Melón escrito (1 Porción)</item>
+        <item>Melón tuna (1 unidad)</item>
+        <item>Melón tuna (1 Porción)</item>
+        <item>Membrillo (1 Regular)</item>
+        <item>Minestrón (1 Plato)</item>
+        <item>Merengue con azúcar (1 Porción)</item>
+        <item>Merengue con fruta (1 Porción)</item>
+        <item>Mermelada (1 Cuchda)</item>
+        <item>Mermelada dietética (1 Cuchdita)</item>
+        <item>Miel de abeja (1 Cuchda)</item>
+        <item>Miel de palma (1 Cuchda)</item>
+        <item>Milo (1 Cuchda)</item>
+        <item>Mollejas de pavo (1 Porción)</item>
+        <item>Mollejas de pollo (1 Porción)</item>
+        <item>Mora (1 taza)</item>
+        <item>Mora jugo (1/2 taza)</item>
+        <item>Mortadela (1 tajada)</item>
+        <item>Nabo (1 Regular)</item>
+        <item>Naranja (1 Regular)</item>
+        <item>Naranja (1/2 Taza)</item>
+        <item>Nata (1 Cuchda)</item>
+        <item>Néctar (1 Vaso chico)</item>
+        <item>Níspero (1 Grande)</item>
+        <item>Nueces (1 Unidad)</item>
+        <item>Ñoquis (1 Plato)</item>
+        <item>Oporto (1 Copita)</item>
+        <item>Orange Crush (1 Vaso chico)</item>
+        <item>Ostras (6 Unidades)</item>
+        <item>Ostiones (6 Unidades)</item>
+        <item>Palmitos (3 Unidades)</item>
+        <item>Palomitas de maíz (1 Taza)</item>
+        <item>Palta (1/2 Regular)</item>
+        <item>Palta Molida (1 Cuchda)</item>
+        <item>Palta Rellena (1 Porción)</item>
+        <item>Pan Blanco Molde (1 Rebanada)</item>
+        <item>Pan Centeno (1 Unidad)</item>
+        <item>Pan con Fiambre (1 Unidad)</item>
+        <item>Pan con Fiambre y Mantequilla (1 Unidad)</item>
+        <item>Pan con Manjar (1 Unidad)</item>
+        <item>Pan con Mermelada (1 Unidad)</item>
+        <item>Pan con Pateé (1 Unidad)</item>
+        <item>Pan con Queso (1 Unidad)</item>
+        <item>Pan con Queso y Mantequilla (1 Unidad)</item>
+        <item>Pan de Gluten (1 Unidad)</item>
+        <item>Pan Especial (1 Unidad)</item>
+        <item>Pan Hallulla (1 Unidad)</item>
+        <item>Pan Dietético (1 Rebanada)</item>
+        <item>Pan Integral (1 Unidad)</item>
+        <item>Pan Marraqueta (1 Unidad)</item>
+        <item>Panqueques (1 Unidad)</item>
+        <item>Pantrucas (1 Plato)</item>
+        <item>Papas (1 RegCocida)</item>
+        <item>Papas Duquesas (1 Unidad)</item>
+        <item>Papas Duquesas (1 Porción)</item>
+        <item>Papas Fritas (1 Unidad)</item>
+        <item>Papas Fritas (1 Porción)</item>
+        <item>Papas Rellenas (1 Unidad)</item>
+        <item>Papayas Jugo (1 Vaso chico)</item>
+        <item>Papayas crudas (1 Regular)</item>
+        <item>Pasas (1 Unidad)</item>
+        <item>Pastel (1 Unidad)</item>
+        <item>Pastel de Carne (1 Porción)</item>
+        <item>Pastel de Choclo (1 Porción)</item>
+        <item>Pastel de Mil Hojas (1 Unidad)</item>
+        <item>Pastel de Papas (1 Porción)</item>
+        <item>Pastelillos de cóctel (1 Unidad)</item>
+        <item>Pastillas de Menta (1 Unidad)</item>
+        <item>Patees (1 Tripa)</item>
+        <item>Patees (1 Porción)</item>
+        <item>Patitas de Cerdo (1 Unid. Reg.)</item>
+        <item>Pato Asado (1 TrozoChico)</item>
+        <item>Pato Orange (1 Porción)</item>
+        <item>Pavo Asado (1 TrozoChico)</item>
+        <item>Penca Picada (1/2 Taza)</item>
+        <item>Pepinillo fresco (2 Unidades)</item>
+        <item>Pepinillo Pickle (4 Unidades)</item>
+        <item>Pepino (1Taza Picada)</item>
+        <item>Pepino (1 Regular)</item>
+        <item>Pepsi cola (1 Vaso chico)</item>
+        <item>Pera (1 Regular)</item>
+        <item>Pera (1/2 Taza)</item>
+        <item>Pera al jugo (1 Tarro)</item>
+        <item>Pera compota (1 Porción)</item>
+        <item>Perejil (1 Taza)</item>
+        <item>Pernil (1 Porción)</item>
+        <item>Pescado Ahumado (1 Porción)</item>
+        <item>Pescado al Curry (1 Porción)</item>
+        <item>Pescado al Jugo (1 Porción)</item>
+        <item>Pescada al vapor (1 Porción)</item>
+        <item>Pescado tártara (1 Porción)</item>
+        <item>Pichanga (1 Porción)</item>
+        <item>Pie de Limón (1 Porción)</item>
+        <item>Pimentón (1 Medida)</item>
+        <item>Pino de Carne (1 Porción)</item>
+        <item>Piña (1 Rodela)</item>
+        <item>Piña (1/2 Taza)</item>
+        <item>Piña al Jugo (1 Tarro)</item>
+        <item>Piña en conserva (1 Torreja)</item>
+        <item>Piñones ()</item>
+        <item>Pisco (1 Copita)</item>
+        <item>Piure (1/4 Taza)</item>
+        <item>Pizza 1/m (1 Unidad)</item>
+        <item>Plátano (1 Regular)</item>
+        <item>Pollo-Ala (1 Presa)</item>
+        <item>Pollo-Pechuga (1 Presa)</item>
+        <item>Pollo-Pierna (1 Presa reg)</item>
+        <item>Pollo-Menudencias (1 Porción)</item>
+        <item>Pollo al Curry (salsa) (1 Presa)</item>
+        <item>Pollo al jugo (1/4 Unidad)</item>
+        <item>Pollo asado con mantequilla (1/4 Unidad)</item>
+        <item>Pollo frito apanado (1 Presa)</item>
+        <item>Pomelo (1 Unidad Chica)</item>
+        <item>Porotos cocidos (1 Taza)</item>
+        <item>Porotos con tallarines (1 Plato)</item>
+        <item>Porotos granados (1 Plato)</item>
+        <item>Porotos granados cocidos (1/2 Taza)</item>
+        <item>Porotos verdes cocidos (1/2 Taza)</item>
+        <item>Porotos verdes crudos (13 Unidades)</item>
+        <item>Porrones (1 Unidad)</item>
+        <item>Postre de Leche 1/m (1 Compota)</item>
+        <item>Prietas (1 Unidad)</item>
+        <item>Puré de castañas (1 Porción)</item>
+        <item>Puré de manzanas s/azuc (1 Porción)</item>
+        <item>Puré de manzanas c/azuc (1 Porción)</item>
+        <item>Puré de Papas (1 Porción)</item>
+        <item>Quesillo (1 Tajada)</item>
+        <item>Quesillo (1 Tubo)</item>
+        <item>Queso de Cabra (1 Tajada)</item>
+        <item>Queso Crema (1 Cuchdita)</item>
+        <item>Queso Crema (1 Triángulo)</item>
+        <item>Queso de Cabezas (1 Tajada)</item>
+        <item>Queso fresco (1 Porción)</item>
+        <item>Queso en general (1 Tajada)</item>
+        <item>Queso Holandés (bola) (1 Tajada)</item>
+        <item>Queso rayado Parmesano (1 Cuchda)</item>
+        <item>Queso Ricotte (1 Tajada)</item>
+        <item>Rabanitos (1 Grande)</item>
+        <item>Refrescos Polvo (1 Vaso chico)</item>
+        <item>Repollo Cocido (1/2 Taza)</item>
+        <item>Repollo crudo (1 Taza)</item>
+        <item>Requesón (1 Cuchda)</item>
+        <item>Ron (1 Copita)</item>
+        <item>Riñón de Cordero (1 Porción)</item>
+        <item>Riñón de Cerdo (1 Porción)</item>
+        <item>Riñón de Vacuno (1 Porción)</item>
+        <item>Roastbeef (1 Porción)</item>
+        <item>Salsa blanca (1 Cuchda)</item>
+        <item>Salame (1 Tajada)</item>
+        <item>Surtido para caldillo (1 Tarro)</item>
+        <item>Salmón (1 Tarro)</item>
+        <item>Salmón Ahumado (1 Porción)</item>
+        <item>Salmón crudo (1 Porción)</item>
+        <item>Salmón en aceite (1 Lata Reg)</item>
+        <item>Salpicón (1 Porción)</item>
+        <item>Sandia (1 Trozo Chico)</item>
+        <item>Sardina en aceite (1 Lata Reg)</item>
+        <item>Sardina en aceite (1 Porción)</item>
+        <item>Sémola con leche (1 Compota)</item>
+        <item>Sémola cruda (1 Cuchda)</item>
+        <item>Sesos de cerdo (1 Porción)</item>
+        <item>Sesos de vacuno (1 Porción)</item>
+        <item>Sidra (1 Copita)</item>
+        <item>Sopa con verdura y arroz (1 Plato)</item>
+        <item>Sopa de mariscos (1 Plato)</item>
+        <item>Sopa deshidratada (1 Plato)</item>
+        <item>Sopaipilla (1 Unidad)</item>
+        <item>Sopaipillas pasadas (1 Unidad)</item>
+        <item>Sopa menudencias (1 Plato)</item>
+        <item>Sprite (1 Vaso chico)</item>
+        <item>Sprite Light (1 Vaso chico)</item>
+        <item>Tallarines cocidos (1 Taza)</item>
+        <item>Tallarines c/salsa de carne (1 taza)</item>
+        <item>Ternero asado (1 porción)</item>
+        <item>Tocino (1 tajada)</item>
+        <item>Tomate (1 m3d)</item>
+        <item>Tomate jugo (1/2 taza)</item>
+        <item>Tomate al jugo (1 tarro)</item>
+        <item>Tomate jugo (1 tarro)</item>
+        <item>Tomate relleno (1 Unid. Reg.)</item>
+        <item>Tom Collins (1 vaso)</item>
+        <item>Torta (1 porción)</item>
+        <item>Toronja (1/2 ch)</item>
+        <item>Tortilla de verduras t/m (1 porción)</item>
+        <item>Tunas (1 reg)</item>
+        <item>Turín (1 rebanada)</item>
+        <item>Tuti fruti en conserva (1 porción)</item>
+        <item>Ubre de vacuno (1 porción)</item>
+        <item>Ulte (1/2 taza)</item>
+        <item>Uva (1 racimo ch)</item>
+        <item>Vermouth dulce (1 copita)</item>
+        <item>Vermouth seco (1 copita)</item>
+        <item>Vienesas (1 unid)</item>
+        <item>Vino blanco (1 vaso)</item>
+        <item>Vino dulce (1 vaso)</item>
+        <item>Vino tinto (1 vaso)</item>
+        <item>Vodka (1 copita)</item>
+        <item>Wisky (1 vaso)</item>
+        <item>Yema de huevo (1 unid)</item>
+        <item>Yoghurt batido (1 unid)</item>
+        <item>Yoghurt c/fruta (1 unid)</item>
+        <item>Yoghurt sin azúcar (1 taza)</item>
+        <item>Zapallo cocido (1/2 taza)</item>
+        <item>Zapallo italiano cocido (1 med ó 1/2 t)</item>
+        <item>Zanahoria cocida (1/2 taza)</item>
+        <item>Zanahoria cruda (1 ch)</item>
+        <item>Zanahoria jugo (1/2 taza)</item>
+    </string-array>
+
+    <string-array name="valores">
+        <item> - </item>
+        <item>90</item>
+        <item>35</item>
+        <item>23</item>
+        <item>8</item>
+        <item>13</item>
+        <item>0</item>
+        <item>280</item>
+        <item>350</item>
+        <item>39</item>
+        <item>300</item>
+        <item>16</item>
+        <item>200</item>
+        <item>162</item>
+        <item>165</item>
+        <item>58</item>
+        <item>185</item>
+        <item>23</item>
+        <item>78</item>
+        <item>186</item>
+        <item>115</item>
+        <item>182</item>
+        <item>11</item>
+        <item>641</item>
+        <item>100</item>
+        <item>185</item>
+        <item>17</item>
+        <item>594</item>
+        <item>250</item>
+        <item>264</item>
+        <item>72</item>
+        <item>335</item>
+        <item>60</item>
+        <item>180</item>
+        <item>470</item>
+        <item>150</item>
+        <item>106</item>
+        <item>13</item>
+        <item>120</item>
+        <item>20</item>
+        <item>180</item>
+        <item>182</item>
+        <item>145</item>
+        <item>25</item>
+        <item>591</item>
+        <item>13</item>
+        <item>39</item>
+        <item>36</item>
+        <item>36</item>
+        <item>201</item>
+        <item>180</item>
+        <item>159</item>
+        <item>796</item>
+        <item>225</item>
+        <item>36</item>
+        <item>65</item>
+        <item>150</item>
+        <item>272</item>
+        <item>36</item>
+        <item>208</item>
+        <item>310</item>
+        <item>32</item>
+        <item>28</item>
+        <item>20</item>
+        <item>130</item>
+        <item>24</item>
+        <item>100</item>
+        <item>130</item>
+        <item>60</item>
+        <item>64</item>
+        <item>23</item>
+        <item>377</item>
+        <item>240</item>
+        <item>235</item>
+        <item>250</item>
+        <item>289</item>
+        <item>191</item>
+        <item>65</item>
+        <item>11</item>
+        <item>220</item>
+        <item>125</item>
+        <item>38</item>
+        <item>310</item>
+        <item>340</item>
+        <item>450</item>
+        <item>425</item>
+        <item>417</item>
+        <item>25</item>
+        <item>211</item>
+        <item>17</item>
+        <item>120</item>
+        <item>64</item>
+        <item>3</item>
+        <item>52</item>
+        <item>96</item>
+        <item>84</item>
+        <item>49</item>
+        <item>30</item>
+        <item>14</item>
+        <item>41</item>
+        <item>12</item>
+        <item>11</item>
+        <item>420</item>
+        <item>220</item>
+        <item>50</item>
+        <item>122</item>
+        <item>196</item>
+        <item>24</item>
+        <item>234</item>
+        <item>90</item>
+        <item>221</item>
+        <item>170</item>
+        <item>102</item>
+        <item>280</item>
+        <item>138</item>
+        <item>200</item>
+        <item>66</item>
+        <item>90</item>
+        <item>90</item>
+        <item>20</item>
+        <item>50</item>
+        <item>67</item>
+        <item>235</item>
+        <item>70</item>
+        <item>144</item>
+        <item>20</item>
+        <item>74</item>
+        <item>571</item>
+        <item>383</item>
+        <item>8</item>
+        <item>73</item>
+        <item>96</item>
+        <item>58</item>
+        <item>76</item>
+        <item>449</item>
+        <item>527</item>
+        <item>76</item>
+        <item>68</item>
+        <item>131</item>
+        <item>45</item>
+        <item>65</item>
+        <item>96</item>
+        <item>376</item>
+        <item>241</item>
+        <item>260</item>
+        <item>180</item>
+        <item>41</item>
+        <item>65</item>
+        <item>204</item>
+        <item>100</item>
+        <item>48</item>
+        <item>80</item>
+        <item>58</item>
+        <item>80</item>
+        <item>381</item>
+        <item>347</item>
+        <item>315</item>
+        <item>400</item>
+        <item>211</item>
+        <item>305</item>
+        <item>106</item>
+        <item>300</item>
+        <item>16</item>
+        <item>15</item>
+        <item>53</item>
+        <item>54</item>
+        <item>175</item>
+        <item>21</item>
+        <item>14</item>
+        <item>235</item>
+        <item>265</item>
+        <item>60</item>
+        <item>78</item>
+        <item>72</item>
+        <item>360</item>
+        <item>250</item>
+        <item>245</item>
+        <item>150</item>
+        <item>72</item>
+        <item>453</item>
+        <item>289</item>
+        <item>35</item>
+        <item>54</item>
+        <item>120</item>
+        <item>150</item>
+        <item>17</item>
+        <item>34</item>
+        <item>31</item>
+        <item>16</item>
+        <item>41</item>
+        <item>44</item>
+        <item>47</item>
+        <item>38</item>
+        <item>234</item>
+        <item>473</item>
+        <item>65</item>
+        <item>39</item>
+        <item>100</item>
+        <item>260</item>
+        <item>36</item>
+        <item>50</item>
+        <item>24</item>
+        <item>1316</item>
+        <item>140</item>
+        <item>260</item>
+        <item>125</item>
+        <item>4</item>
+        <item>224</item>
+        <item>59</item>
+        <item>87</item>
+        <item>293</item>
+        <item>147</item>
+        <item>217</item>
+        <item>135</item>
+        <item>160</item>
+        <item>140</item>
+        <item>175</item>
+        <item>49</item>
+        <item>42</item>
+        <item>76</item>
+        <item>127</item>
+        <item>108</item>
+        <item>136</item>
+        <item>150</item>
+        <item>40</item>
+        <item>40</item>
+        <item>165</item>
+        <item>93</item>
+        <item>140</item>
+        <item>174</item>
+        <item>85</item>
+        <item>91</item>
+        <item>260</item>
+        <item>92</item>
+        <item>340</item>
+        <item>127</item>
+        <item>50</item>
+        <item>194</item>
+        <item>50</item>
+        <item>225</item>
+        <item>113</item>
+        <item>506</item>
+        <item>140</item>
+        <item>61</item>
+        <item>196</item>
+        <item>203</item>
+        <item>148</item>
+        <item>140</item>
+        <item>220</item>
+        <item>85</item>
+        <item>55</item>
+        <item>6</item>
+        <item>120</item>
+        <item>75</item>
+        <item>28</item>
+        <item>220</item>
+        <item>4</item>
+        <item>50</item>
+        <item>5</item>
+        <item>50</item>
+        <item>17</item>
+        <item>7</item>
+        <item>285</item>
+        <item>220</item>
+        <item>187</item>
+        <item>270</item>
+        <item>440</item>
+        <item>76</item>
+        <item>280</item>
+        <item>319</item>
+        <item>258</item>
+        <item>12</item>
+        <item>13</item>
+        <item>150</item>
+        <item>75</item>
+        <item>124</item>
+        <item>53</item>
+        <item>380</item>
+        <item>40</item>
+        <item>18</item>
+        <item>75</item>
+        <item>160</item>
+        <item>10</item>
+        <item>61</item>
+        <item>40</item>
+        <item>37</item>
+        <item>48</item>
+        <item>161</item>
+        <item>53</item>
+        <item>36</item>
+        <item>190</item>
+        <item>128</item>
+        <item>38</item>
+        <item>20</item>
+        <item>378</item>
+        <item>44</item>
+        <item>71</item>
+        <item>320</item>
+        <item>28</item>
+        <item>116</item>
+        <item>50</item>
+        <item>2</item>
+        <item>60</item>
+        <item>52</item>
+        <item>18</item>
+        <item>160</item>
+        <item>155</item>
+        <item>60</item>
+        <item>40</item>
+        <item>60</item>
+        <item>23</item>
+        <item>36</item>
+        <item>43</item>
+        <item>40</item>
+        <item>73</item>
+        <item>52</item>
+        <item>28</item>
+        <item>320</item>
+        <item>45</item>
+        <item>52</item>
+        <item>80</item>
+        <item>144</item>
+        <item>30</item>
+        <item>150</item>
+        <item>108</item>
+        <item>58</item>
+        <item>316</item>
+        <item>60</item>
+        <item>229</item>
+        <item>411</item>
+        <item>447</item>
+        <item>430</item>
+        <item>373</item>
+        <item>437</item>
+        <item>449</item>
+        <item>595</item>
+        <item>208</item>
+        <item>185</item>
+        <item>309</item>
+        <item>30</item>
+        <item>276</item>
+        <item>267</item>
+        <item>160</item>
+        <item>350</item>
+        <item>71</item>
+        <item>55</item>
+        <item>295</item>
+        <item>19</item>
+        <item>368</item>
+        <item>400</item>
+        <item>36</item>
+        <item>65</item>
+        <item>3</item>
+        <item>350</item>
+        <item>275</item>
+        <item>390</item>
+        <item>394</item>
+        <item>376</item>
+        <item>90</item>
+        <item>11</item>
+        <item>514</item>
+        <item>65</item>
+        <item>277</item>
+        <item>190</item>
+        <item>240</item>
+        <item>149</item>
+        <item>21</item>
+        <item>11</item>
+        <item>25</item>
+        <item>11</item>
+        <item>25</item>
+        <item>43</item>
+        <item>58</item>
+        <item>42</item>
+        <item>381</item>
+        <item>40</item>
+        <item>42</item>
+        <item>230</item>
+        <item>120</item>
+        <item>220</item>
+        <item>230</item>
+        <item>117</item>
+        <item>120</item>
+        <item>29</item>
+        <item>300</item>
+        <item>52</item>
+        <item>177</item>
+        <item>30</item>
+        <item>52</item>
+        <item>340</item>
+        <item>83</item>
+        <item>310</item>
+        <item>181</item>
+        <item>46</item>
+        <item>240</item>
+        <item>110</item>
+        <item>34</item>
+        <item>150</item>
+        <item>125</item>
+        <item>100</item>
+        <item>200</item>
+        <item>274</item>
+        <item>240</item>
+        <item>190</item>
+        <item>28</item>
+        <item>241</item>
+        <item>475</item>
+        <item>335</item>
+        <item>135</item>
+        <item>19</item>
+        <item>28</item>
+        <item>24</item>
+        <item>237</item>
+        <item>124</item>
+        <item>185</item>
+        <item>55</item>
+        <item>100</item>
+        <item>300</item>
+        <item>33</item>
+        <item>399</item>
+        <item>120</item>
+        <item>13</item>
+        <item>143</item>
+        <item>80</item>
+        <item>33</item>
+        <item>107</item>
+        <item>115</item>
+        <item>50</item>
+        <item>120</item>
+        <item>3</item>
+        <item>37</item>
+        <item>20</item>
+        <item>16</item>
+        <item>33</item>
+        <item>122</item>
+        <item>125</item>
+        <item>115</item>
+        <item>104</item>
+        <item>250</item>
+        <item>25</item>
+        <item>67</item>
+        <item>174</item>
+        <item>782</item>
+        <item>185</item>
+        <item>296</item>
+        <item>185</item>
+        <item>218</item>
+        <item>38</item>
+        <item>350</item>
+        <item>117</item>
+        <item>260</item>
+        <item>45</item>
+        <item>140</item>
+        <item>145</item>
+        <item>10</item>
+        <item>140</item>
+        <item>160</item>
+        <item>63</item>
+        <item>130</item>
+        <item>190</item>
+        <item>191</item>
+        <item>41</item>
+        <item>1</item>
+        <item>241</item>
+        <item>505</item>
+        <item>245</item>
+        <item>75</item>
+        <item>29</item>
+        <item>0</item>
+        <item>106</item>
+        <item>74</item>
+        <item>170</item>
+        <item>250</item>
+        <item>420</item>
+        <item>50</item>
+        <item>152</item>
+        <item>50</item>
+        <item>81</item>
+        <item>190</item>
+        <item>179</item>
+        <item>14</item>
+        <item>140</item>
+        <item>45</item>
+        <item>35</item>
+        <item>197</item>
+        <item>84</item>
+        <item>158</item>
+        <item>70</item>
+        <item>75</item>
+        <item>200</item>
+        <item>63</item>
+        <item>159</item>
+        <item>159</item>
+        <item>100</item>
+        <item>30</item>
+        <item>15</item>
+        <item>45</item>
+        <item>29</item>
+        <item>40</item>
     </string-array>
 
 <!-- TODO: Remove or change this placeholder text -->
