@@ -19,6 +19,7 @@ import android.widget.TextView;
 
 import com.calc.maqueda.fitnesscalculators.fragments.CaloriasDiariasFragment;
 import com.calc.maqueda.fitnesscalculators.fragments.HarrisBenedictFragment;
+import com.calc.maqueda.fitnesscalculators.fragments.PesoIdealFragment;
 
 
 public class MainActivity extends Activity
@@ -57,6 +58,8 @@ public class MainActivity extends Activity
             case 0: fragmentManager.beginTransaction().replace(R.id.container, HarrisBenedictFragment.newInstance(position + 1)).commit();
                 break;
             case 1: fragmentManager.beginTransaction().replace(R.id.container, CaloriasDiariasFragment.newInstance(position + 1)).commit();
+                break;
+            case 2: fragmentManager.beginTransaction().replace(R.id.container, PesoIdealFragment.newInstance(position + 1)).commit();
                 break;
         }
 
