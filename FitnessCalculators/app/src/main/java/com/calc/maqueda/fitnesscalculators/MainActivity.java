@@ -20,6 +20,7 @@ import android.widget.TextView;
 import com.calc.maqueda.fitnesscalculators.fragments.CaloriasDiariasFragment;
 import com.calc.maqueda.fitnesscalculators.fragments.ContadorCalooriasAlimentosFragment;
 import com.calc.maqueda.fitnesscalculators.fragments.HarrisBenedictFragment;
+import com.calc.maqueda.fitnesscalculators.fragments.IMCFragment;
 import com.calc.maqueda.fitnesscalculators.fragments.PesoIdealFragment;
 
 
@@ -64,6 +65,8 @@ public class MainActivity extends Activity
                 break;
             case 3: fragmentManager.beginTransaction().replace(R.id.container, ContadorCalooriasAlimentosFragment.newInstance(position + 1)).commit();
                 break;
+            case 4: fragmentManager.beginTransaction().replace(R.id.container, IMCFragment.newInstance(position + 1)).commit();
+                break;
         }
 
 
@@ -79,6 +82,12 @@ public class MainActivity extends Activity
                 break;
             case 3:
                 mTitle = getString(R.string.title_section3);
+                break;
+            case 4:
+                mTitle = getString(R.string.title_section4);
+                break;
+            case 5:
+                mTitle = getString(R.string.title_section5);
                 break;
         }
     }

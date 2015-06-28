@@ -5,6 +5,7 @@
     <string name="title_section2">Calorías diarias</string>
     <string name="title_section3">Peso ideal</string>
     <string name="title_section4">Contador de calorías por alimento</string>
+    <string name="title_section5">IMC</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
